@@ -1,0 +1,120 @@
+/* -- Default -- */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+body {
+    background-color: #181818;
+}
+
+/* -- Header -- */
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    background-color: #232323;
+    display: inline-block;
+    border-radius: 32px;
+    padding: 5px;
+    position: fixed;
+    top: 5px;
+}
+
+.nav-items li {
+    display: inline-block;
+}
+
+.nav-items li a{
+    display: block;
+    background-color: #434343;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1em;
+    padding: 16px 32px;
+    margin: 3px;
+    border-radius: 32px;
+    text-align: center;
+}
+
+/* -- Presentation -- */
+
+.presentation-container {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.presentation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.presentation img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.icon-picture {
+    display: inline-block;
+    width: 30%;
+}
+
+.main-presentation {
+    font-size: 1.5em;
+}
+
+.main-presentation .name {
+    color: #00C2FF;
+    font-size: 1.8em;
+}
+
+.main-presentation .hello {
+    display: block;
+}
+
+.main-presentation .pseudo {
+    color: #D1D1D1;
+    font-size: .8em;
+}
+
+.hobbys {
+    color: #D1D1D1;
+    font-size: .8em;
+}
+
+.presentation p {
+    display: inline
+}
+
+/* Social bar */
+
+.social-media {
+    margin-top: 10px;
+    background-color: #232323;
+    padding: 10px;
+    border-radius: 32px;
+}
+
+.social-media ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+}
+
+.social-media a {
+    color: #fff;
+    font-size: 2em;
+}
